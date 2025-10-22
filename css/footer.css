@@ -1,0 +1,101 @@
+.footer {
+  width: 100%;
+  height: 319px;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  position: relative;
+  font-family: "Pattaya", sans-serif;
+  color: #2D2E2E;
+}
+
+.footer__container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.footer__socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer__social {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.footer__social:hover {
+  transform: translateY(-2px);
+}
+
+.footer__social img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.footer__bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  width: 100%;
+  position: relative;
+}
+
+.footer__nav {
+  display: flex;
+  gap: 57px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #2D2E2E;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer__link:hover {
+  color: #3A4F39;
+}
+
+.footer__button {
+  position: absolute;
+  right: 0;
+  padding: 17px 30px;
+  background: #3A4F39;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: "Pattaya", sans-serif;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.footer__button:hover {
+  background: #506a4f;
+  transform: translateY(-2px);
+}

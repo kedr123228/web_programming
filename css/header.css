@@ -1,0 +1,96 @@
+.header {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.header__container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+
+.header__logo {
+  position: relative;
+  width: 20px;
+  height: 80px;
+}
+
+.header__logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+}
+
+.header__logo__text1,
+.header__logo__text2 {
+  font-size: 15px;
+  font-weight: bold;
+  color: #3a4f39;
+  text-align: center;
+}
+
+.header__logo__text3 {
+  font-size: 12px;
+  color: #3a4f39;
+  text-align: center;
+}
+
+
+.header__nav {
+  background: #e0e0e0;
+  border-radius: 30px;
+  padding: 10px 25px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.header__nav__list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.header__nav__link {
+  text-decoration: none;
+  color: #2d2e2e;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.header__nav__link:hover {
+  color: #0004ff;
+}
+
+.header__actions {
+  display: flex;
+  gap: 15px;
+}
+
+.header__nav__icon {
+  display: flex;
+  align-items: center;
+}
+
+.header__icon {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  opacity: 0.9;
+  transition: opacity 0.3s ease, transform 0.2s ease;
+    
+}
+
+.header__icon:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
