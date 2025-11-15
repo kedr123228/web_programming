@@ -1,4 +1,4 @@
-.hero__3 {
+.cta {
   width: 100%;
   background: #FFFFFF;
   display: flex;
@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 
-.hero__3__container {
+.cta__container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,7 +16,7 @@
   text-align: center;
 }
 
-.hero__3__title {
+.cta__title {
   font-weight: 600;
   font-size: 50px;
   line-height: 61px;
@@ -24,13 +24,13 @@
   margin: 0;
 }
 
-.hero__3__line {
+.cta__line {
   width: 300px;
   height: 5px;
   background: #A0CD9E;
 }
 
-.hero__3__text {
+.cta__text {
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
@@ -39,14 +39,14 @@
   margin: 0;
 }
 
-.hero__3__buttons {
+.cta__buttons {
   display: flex;
   gap: 16px;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.hero__3__button {
+.cta__button {
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
@@ -57,22 +57,22 @@
   transition: all 0.2s ease;
 }
 
-.hero__3__button--dark {
+.cta__button--dark {
   background: #3A4F39;
   color: #FFFFFF;
   border: none;
 }
 
-.hero__3__button--dark:hover {
+.cta__button--dark:hover {
   background: #2B3C2B;
 }
 
-.hero__3__button--light {
+.cta__button--light {
   background: #FFFFFF;
   color: #3A4F39;
   border: 1px solid #3A4F39;
 }
 
-.hero__3__button--light:hover {
+.cta__button--light:hover {
   background: #F5F5F5;
 }

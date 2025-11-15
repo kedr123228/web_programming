@@ -13,10 +13,11 @@
 <header class="header">
   <div class="header__container">
     <div class="header__logo">
-      <span class="header__logo__text1"> ОТМЫВ </span>
-      <span class="header__logo__text2"> ДЕНЕГ </span>
-      <span class="header__logo__text3"> Инкорпоройтед </span>
+      <span class="header__logo-text header__logo-text--1">ОТМЫВ</span>
+      <span class="header__logo-text header__logo-text--2">ДЕНЕГ</span>
+      <span class="header__logo-text header__logo-text--3">Инкорпоройтед</span>
     </div>
+
 
     <nav class="header__nav">
       <ul class="header__nav__list">
@@ -181,36 +182,36 @@
   </div>
 </section>
 
-<section class="hero__2">
-  <div class="hero__2__container">
+<section class="promo">
+  <div class="promo__container">
 
-    <div class="hero__2__left">
-      <h1 class="hero__2__title">Давайте все вместе обеспечим мне беззаботную старость!</h1>
-      <p class="hero__2__text"> Осталось совсем немного: необходимо купить курсы на этом сайте, сказать пин-код из SMS, 3 цифры с оборота карты,
+    <div class="promo__left">
+      <h1 class="promo__title">Давайте все вместе обеспечим мне беззаботную старость!</h1>
+      <p class="promo__text"> Осталось совсем немного: необходимо купить курсы на этом сайте, сказать пин-код из SMS, 3 цифры с оборота карты,
         пароль от домашнего Wi-Fi, ключевое слово-подсказка для восстановления доступа к дебетовой карте.
         Необходимо ещё взять кредит в нашем банке на 100 лет под 122% годовых.</p>
     </div>
 
-    <div class="hero__2__image">
+    <div class="promo__image">
       <img src="./assets/mavrodi.jpg" alt="Мавроди">
     </div>
   </div>
 </section>
 
-<section class="hero__3">
-  <div class="hero__3__container">
+<section class="cta">
+  <div class="cta__container">
 
-    <h1 class="hero__3__title">Расстаньтесь со своими деньгами!</h1>
+    <h1 class="cta__title">Расстаньтесь со своими деньгами!</h1>
 
-    <div class="hero__3__line"></div>
+    <div class="cta__line"></div>
 
-    <p class="hero__3__text">
+    <p class="cta__text">
       Осталось всего 5 минут до истечения срока действия скидки на наши курсы!
       Успейте купить пока действует скидка и сэкономленные деньги переведите в  интернцаиональный фонд помощи мамонтам. </p>
 
-    <div class="hero__3__buttons">
-      <button class="hero__3__button hero__3__button--dark">Купить сейчас</button>
-      <button class="hero__3__button hero__3__button--light">Купить позже</button>
+    <div class="cta__buttons">
+      <button class="cta__button cta__button--dark">Купить сейчас</button>
+      <button class="cta__button cta__button--light">Купить позже</button>
     </div>
   </div>
 </section>
@@ -298,24 +299,25 @@
 
 <section class="registration">
   <div class="registration__container">
-    <img src="./assets/zadnii_fon.png" alt="Задний фон" class="registration__image">
+    <img src="./assets/zadnii_fon.png" alt="" aria-hidden="true" class="registration__image">
 
-    <div class="registration__form">
+    <form class="registration__form" method="post" action="/register">
       <h2 class="registration__title">Регистрация</h2>
-
-      <input type="email" placeholder=" Введите e-mail" class="registration__input">
+      
+      <input type="email" name="email" placeholder="Введите e-mail" class="registration__input" required>
 
       <div class="registration__row">
-        <input type="text" placeholder=" Имя" class="registration__input registration__input--half">
-        <input type="text" placeholder=" Фамилия" class="registration__input registration__input--half">
+        <input type="text" name="first_name" placeholder="Имя" class="registration__input registration__input--half" required>
+        <input type="text" name="last_name" placeholder="Фамилия" class="registration__input registration__input--half" required>
       </div>
 
-      <input type="password" placeholder=" Введите пароль" class="registration__input">
+      <input type="password" name="password" placeholder="Введите пароль" class="registration__input" required>
 
       <div class="registration__actions">
-        <button class="registration__button">Стать мамонтом</button>
+        <button type="submit" class="registration__button">Стать мамонтом</button>
       </div>
-    </div>
+    </form>
+
   </div>
 </section>
 
