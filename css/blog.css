@@ -64,11 +64,11 @@
   max-width: 250px;
 }
 
-.bloq__image {
+.blog__image {
   flex: 1;
 }
 
-.bloq__image img {
+.blog__image img {
   width: 100px;
   height: 66px;
   border-radius: 10px;
