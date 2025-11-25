@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Pattaya", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+button, input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+.header__container,
+.hero__container,
+.funfact__container,
+.features__container,
+.analytics__container,
+.cta__container,
+.footer__container{
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}

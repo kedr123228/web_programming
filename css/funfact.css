@@ -1,0 +1,35 @@
+.funfact {
+  padding: 80px 0;
+  background-color: #fff8f2;
+  display: flex;
+}
+
+.funfact__container {
+  display: flex;
+  gap: 280px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.funfact__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.funfact__number {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  color: #18063C;
+}
+
+.funfact__label {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #404040;
+  opacity: 0.6;
+  margin-top: 8px;
+  text-align: center;
+}

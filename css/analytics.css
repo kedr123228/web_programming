@@ -1,0 +1,125 @@
+.analytics {
+  background: #FFF8F2;
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.analytics__container {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+}
+
+.analytics__visual {
+  position: relative;
+  flex: 0 0 44%; 
+  min-width: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.analytics__visual-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+.analytics__image {
+  position: relative;
+  z-index: 1;
+  max-width: 420px;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.analytics__content {
+  flex: 1 1 52%;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.analytics__title {
+  font-size: 48px;
+  font-weight: 600;
+  color: #18063C;
+  margin: 0;
+}
+
+.analytics__subtitle {
+  font-size: 18px;
+  line-height: 36px;
+  color: #404040;
+  opacity: 0.8;
+  margin: 0;
+  max-width: 560px;
+}
+
+.analytics__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 8px;
+}
+
+.analytics__card {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  padding: 18px 16px;
+  background: transparent;
+}
+
+.analytics__card-icon {
+  width: 66px;
+  height: 66px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 66px;
+  box-shadow: 14px 20px 36px rgba(25, 15, 44, 0.06);
+}
+
+.analytics__card-icon-img {
+  width: 36px;
+  height: 36px;
+  display: block;
+}
+
+.analytics__card-icon--softred {
+  background: rgba(255,85,62,0.12);
+}
+.analytics__card-icon--softteal {
+  background: rgba(122,214,225,0.12);
+}
+.analytics__card-icon--softyellow {
+  background: rgba(255,201,84,0.12);
+}
+
+.analytics__card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.analytics__card-title {
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0 0 6px 0;
+  color: #404040;
+}
+
+.analytics__card-text {
+  font-size: 16px;
+  line-height: 22px;
+  color: #404040;
+  opacity: 0.8;
+  margin: 0;
+  max-width: 520px;
+}
